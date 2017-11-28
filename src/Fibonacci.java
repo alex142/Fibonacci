@@ -6,9 +6,9 @@ public class Fibonacci {
             int fib = 0;
             for(int i = 0; i < r; i++){
                 System.out.println(fib);
-                fib = f0 + f1;
                 f0 = f1;
                 f1 = fib;
+                fib = f0 + f1;
             }
         }
         else{
